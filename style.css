@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+/*.button{
+    position: absolute;
+   font-family: monospace;
+   font-size: 40px;
+   text-decoration: none;
+margin: 20px;
+top: 45%;
+left: 40%;
+border-radius: 23px/100px;
+border-style: groove;
+}*/
+
+.me{
+    cursor: url('mid-2.png'),auto;
+  }
+
+/*  button */
+.text-box {
+    margin-left: 44vw;
+   margin-top: 42vh;
+   
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #BFEAF5;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.li1{
+ position: absolute;
+  top: 35%;
+  left:40%;
+}
+.li2{
+    position: absolute;
+     top: 41%;
+     left:38%;
+    
+    
+    
+
+
+   }
+
+.logo{
+    height: 13%;
+}
+.logo1{
+    height: 13%;
+}
+.size1{
+    font-size: 290%;
+}
+
+
+    .content p {
+      border-right: .15em solid orange;
+      font-family: "Courier";
+      font-size: 14px;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    .content p:nth-child(1) {
+      width: 7.3em;
+      -webkit-animation: type 2s steps(40, end);
+      animation: type 2s steps(40, end);
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    .content p:nth-child(2) {
+      width: 11.5em;
+      opacity: 0;
+      -webkit-animation: type2 2s steps(40, end);
+      animation: type2 2s steps(40, end);
+      -webkit-animation-delay: 2s;
+      animation-delay: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    .content p:nth-child(3) {
+      width: 7.3em;
+      opacity: 0;
+      -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+      animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+      -webkit-animation-delay: 4s;
+      animation-delay: 4s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+    }
+    @keyframes type {
+      0% {
+        width: 0;
+      }
+      99.9% {
+        border-right: .15em solid #82B533;
+      }
+      100% {
+        border: none;
+      }
+    }
+    @-webkit-keyframes type {
+      0% {
+        width: 0;
+      }
+      99.9% {
+        border-right: .15em solid #82B533;
+      }
+      100% {
+        border: none;
+      }
+    }
+    @keyframes type2 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .15em solid #82B533;
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+    }
+    @-webkit-keyframes type2 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .15em solid #82B533;
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+    }
+    @keyframes type3 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @-webkit-keyframes type3 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    @-webkit-keyframes blink {
+      50% {
+        border-color: tranparent;
+      }
+    }
+ .time{
+    animation-duration: 1s;
+    
+ }
+
+ .s{
+  width: 30%;
+ }
+.rep{
+  background-repeat: no-repeat;
+}
+
+
+.col
+{
+  color: #82B533;
+}
+
+.bg1{background-size: cover;
+}
+
+.font_size{
+  font-size: x-large;
+}
+
+.shad{
+  box-shadow: 0px 30px 40px -25px rgba(0, 0, 0, 1);
+  width: 7%;
+}
+.mar{
+  position: fixed;}
+
+
+
+
+
+  
+
